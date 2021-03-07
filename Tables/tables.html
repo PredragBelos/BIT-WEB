@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tables</title>
+</head>
+<body>
+    <!--
+        Table Basics
+        - Create a table containing phone specification data
+        - Each row should represent a new phone
+        - Content of the first column is the phone name
+        - The second column should contain the phone image (height of 100px)
+        - The third column should contain the amount of ram
+        - The fourth column should contain camera information
+        - The fifth column should contain info about internal memory
+        - Table should have at least three rows!
+        - Add column title for each column using th
+
+
+        Merging cells across rows
+         - Add a new column to the table
+        - Title of the column should be "External antenna"
+        - Merge all cells in this column into one cell except the column title
+        - Value inside the cell should be something like "NO"
+
+        Merging columns
+        - Add a row in the table before the first row
+        - The new row should contain one cell stretching across all columns
+        - Content of the cell should be something like "Specification"
+    -->
+
+    <h1>Exercise with table</h1>
+    <br>
+
+    <h2>Table with phones data</h2>
+
+    <table border=1>
+        <tr>
+            <td colspan="6" align="center" bgcolor="silver"><b>SPECIFICATION</b></td>
+        </tr>
+
+        <tr bgcolor = "silver">
+            <th>Phone Name</th>
+            <th>Phone image</th>
+            <th>RAM memory</th>
+            <th>Camera</th>
+            <th>Internal memory</th>
+            <th>External antena</th>
+        </tr>
+
+        <tr>
+            <td>Telephone 1</td>
+            <td align="center"><img src="https://icons-for-free.com/iconfiles/png/512/phone+mobile+mobile+phone+phone+icon-1320184367369922557.png" height=100px></td>
+            <td align="center">3MB</td>
+            <td align="center"><b>Yes</b></td>
+            <td align="center">8GB</td>
+            <td rowspan="4" align="center">NO</td>
+        </tr>
+
+        <tr>
+            <td>Telephone 2</td>
+            <td align="center"><img src="https://icons-for-free.com/iconfiles/png/512/phone+mobile+mobile+phone+phone+icon-1320184367369922557.png" height=100px></td>
+            <td align="center">2MB</td>
+            <td align="center"><b>Yes</b></td>
+            <td align="center">16GB</td>
+       
+        </tr>
+
+        <tr>
+            <td>Telephone 3</td>
+            <td align="center"><img src="https://icons-for-free.com/iconfiles/png/512/phone+mobile+mobile+phone+phone+icon-1320184367369922557.png" height=100px></td>
+            <td align="center">1MB</td>
+            <td align="center">No</td>
+            <td align="center">32GB</td>
+        
+        </tr>
+
+        <tr>
+            <td>Telephone 4</td>
+            <td align="center"><img src="https://icons-for-free.com/iconfiles/png/512/phone+mobile+mobile+phone+phone+icon-1320184367369922557.png" height=100px></td>
+            <td align="center">1MB</td>
+            <td align="center"><b>Yes</b></td>
+            <td align="center">64GB</td>
+        
+        </tr>
+    
+
+    </table>
+    <br>
+    <br>
+
+    <!--
+        Layout using table (centered column)
+        - Create a three column layout
+        - Center column should be 60%
+        - Center column should contain
+        - main title
+        - image 
+        - multiple text paragraphs
+
+
+
+
+        Future layout organization (table in the table)
+        - Rearrange paragraphs that you made in the previous example
+        - Center column should be split in two columns
+        - Each column should contain main title and three more rows with paragraph
+
+    -->
+    <h2>Layout tabela</h2>
+
+    <table  width = 100% border = 1>
+        <tr>
+            <td align = "center" bgcolor="silver">
+                <b>Column 1</b>
+            </td>
+
+            <td width = 60%>
+                <table width = "100%" border = 1>
+                    <tr>
+                        <th width = "50%">Main title</th>
+                        <th width = "50%">Main title</th>
+                    </tr>
+
+                    <tr>
+                        <td align="center" width = "50%"><img src="https://icons-for-free.com/iconfiles/png/512/phone+mobile+mobile+phone+phone+icon-1320184367369922557.png" height=50px></td>
+                        <td align="center" width = "50%"><img src="https://icons-for-free.com/iconfiles/png/512/phone+mobile+mobile+phone+phone+icon-1320184367369922557.png" height=50px></td>
+                    </tr>
+
+                    <tr>
+                        <td align="center" width = "50%"><p>Paragraphs</p></td>
+                        <td align="center" width = "50%"><p>Paragraphs</p></td>
+                    </tr>
+
+                    <tr>
+                        <td align="center" width = "50%"><p>Paragraphs</p></td>
+                        <td align="center" width = "50%"><p>Paragraphs</p></td>
+                    </tr>
+                </table>
+        
+
+            </td>
+
+            <td align = "center" bgcolor="silver">
+                 <b>Column 3</b>
+            </td>
+        </tr>
+
+    </table>
+
+<br>
+<br>
+<br>
+
+
+</body>
+</html>
