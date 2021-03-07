@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>School Quiz</title>
+</head>
+
+<!--
+    Textarea/Radio/Checkbox
+        - Create a page that simulates a school quiz, containing multiple questions:
+        - The first question should contain multiple options out of which the student can select only one
+        - The second quiz question has multiple options out of which the user can select several
+        - The third question should require from user to insert some long text
+
+-->
+<body>
+    <!--This is the main heading-->
+    <h1 style="font-family: Arial;">School quiz</h1>
+    
+    <!--Form for all questions in quiz-->
+    <form action="www.google.com" method="GET">
+
+        <!--Fieldset for the first question and ansfers on the question-->
+        <fieldset style ="border-style: solid; border-color: black; border: width 1px;">
+            <legend style="font-family: Arial; font-size: 18px; font-weight: bold;">Question 1</legend>
+            <br>
+            
+            <input id="answer1" name="question1" type="radio"><label style="font-family: Arial; font-size: 14px; cursor: pointer;" for="answer1"> Answer 1</label><br>
+            <input id="answer2" name="question1" type="radio"><label style="font-family: Arial; font-size: 14px; cursor: pointer;" for="answer2"> Answer 2</label><br>
+            <input id="answer3" name="question1" type="radio"><label style="font-family: Arial; font-size: 14px; cursor: pointer;" for="answer3"> Answer 3</label><br>
+            <input id="answer4" name="question1" type="radio"><label style="font-family: Arial; font-size: 14px; cursor: pointer;" for="answer4"> Answer 4</label><br>
+            <input id="answer5" name="question1" type="radio"><label style="font-family: Arial; font-size: 14px; cursor: pointer;" for="answer5"> Answer 5</label><br>
+        
+        </fieldset>
+
+        <br>
+
+        <!--Fieldset for the second question and ansfers on the question-->
+        <fieldset style ="border-style: solid; border-color: black; border: width 1px;">
+            <legend style="font-family: Arial; font-size: 18px; font-weight: bold;">Question 2</legend>
+            <br>
+            
+            <input id="answer6" name="question2[]" type="checkbox"><label style="font-family: Arial; font-size: 14px; cursor: pointer;" for="answer6"> Answer 1</label><br>
+            <input id="answer7" name="question2[]" type="checkbox"><label style="font-family: Arial; font-size: 14px; cursor: pointer;" for="answer7"> Answer 2</label><br>
+            <input id="answer8" name="question2[]" type="checkbox"><label style="font-family: Arial; font-size: 14px; cursor: pointer;" for="answer8"> Answer 3</label><br>
+            <input id="answer9" name="question2[]" type="checkbox"><label style="font-family: Arial; font-size: 14px; cursor: pointer;" for="answer9"> Answer 4</label><br>
+            <input id="answer10" name="question2[]" type="checkbox"><label style="font-family: Arial; font-size: 14px; cursor: pointer;" for="answer10"> Answer 5</label><br>
+        
+        </fieldset>
+
+        <br>
+
+         <!--Textarea for third question-->
+        <p style="font-family: Arial; font-size: 18px; font-weight: bold; padding-left: 15px;">Question 3</p>
+        <textarea style="font-family: Arial; font-size: 14px; border-style: solid; border-color: black; border: width 1px;" cols="91" rows="10"> </textarea>
+        
+        <br>
+        <br>
+
+        <input style="font-size: 18px; font-weight: bold; color: black;text-decoration: none; cursor: pointer; background-color: white; border-style: solid; border-color: black; border-width: 1px;" name="clear" type="reset" value="Clear">
+        <input style="font-size: 18px; font-weight: bold; color: black;text-decoration: none; cursor: pointer; background-color: white; border-style: solid; border-color: black; border-width: 1px;" name="submit" type="submit" value="Send answers">
+
+               
+
+    </form>
+</body>
+</html>
