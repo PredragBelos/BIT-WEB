@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Forms exercise</title>
+</head>
+
+<body>
+    <!--
+        Text/Password Fields
+            - Create a page that contains a login form
+            - The form should contain username and password fields
+            - Add text to indicate which field is intended for what
+            - Login form should contain "forgot password" link
+            - When the user clicks on the link, they are redirected to a new "Reset password" page
+            - Reset page contains:
+                + an input text field that user uses to provide an email address
+                + "Send" link that redirects the user back to the login form
+
+    -->
+
+    <h1 style="font-family: Arial;">Welcome to the main page</h1>
+
+    <!--Fieldset for the login form-->
+    <fieldset>
+        <legend style="font-family: Arial; font-size: 18px; font-weight: bold;" >Login form</legend>
+        
+        <form action="www.google.com" method="POST" >
+
+            <p style="font-family: Arial; font-weight: bold;">Username</p>
+
+            <!--Text field for Username who is required and hava autofocus-->
+            <input name="username" type="text" required="required" autofocus>
+
+            <p style="font-family: Arial; font-weight: bold;">Password</p>
+
+            <!--Text field for Password who is required and hava autofocus-->
+            <input name="password" type="password" required="required" autofocus>
+
+            <br>
+            <br>
+
+            <!--Input type reset. This part is stylising -->
+            <input style="font-family: Arial; font-weight: bold; background-color: white; font-size: 14px; padding: 7px; cursor: pointer; border-style: solid; border-width: 1px; border-color: black; border-radius: 10px; margin-right: 7px;" name="clear" type="reset" value="Clear data">   
+            
+            <!--Input type reset. This part is stylising -->
+            <input style="font-family: Arial; font-weight: bold; background-color: white; font-size: 14px; padding: 7px; cursor: pointer; border-style: solid; border-width: 1px; border-color: black; border-radius: 10px;" name="submit" type="submit" value="Login">
+
+            <br>
+            <br>
+
+            <!--Link how connect with Reset passwor page-->
+            <a style="font-family: Arial; color: darkblue; text-decoration: none; font-size: 12px;" href="./resetPage.html">Forgot password</a>
+        
+        </form>
+
+    </fieldset>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
