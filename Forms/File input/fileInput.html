@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>File input</title>
+</head>
+
+<body>
+
+<!--Create a form used for submitting "Then VS Now" dieting/workout images and a description
+The form should contain two file input fields
+Both of the fields are file inputs
+They are used by the user for uploading the pictures of them and showing what they looked like before they started working out, and how they look now
+The page has to have an area where the user can put a picture description
+At the end of the form, there should be a submit button with text "Send" that is used to submit the form
+The form is submitted on page "handle-upload.html" and the user is redirected to it upon pressing the button
+This page should contain just a "Form submitted successfully"! message
+-->
+
+<h1 style="font-family: Arial, Helvetica, sans-serif;">Describe your diet</h1>
+
+<br>
+
+<!--Form for diet informations-->
+<form action="handle-upload.html" method="GET">
+
+    <p style="font-family: Arial, Helvetica, sans-serif; font-weight: bold;">Describe your physical health before dieting:</p>
+
+    <!--Description 1-->
+    <textarea style="font-family: Arial, Helvetica, sans-serif;" name="opisPreDijete" cols="80" rows="10"></textarea>
+   
+    <br>
+    <br>
+   
+    <input type="file" name="slikapredijete">
+    
+    <p style="font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-weight: bold;">Insert a picture before the diet</p>
+
+    <br>
+    <br>
+
+    <p style="font-family: Arial, Helvetica, sans-serif; font-weight: bold;">Insert a picture after the diet</p>
+
+    <!--Description 2-->
+    <textarea style="font-family: Arial, Helvetica, sans-serif;" name="opisPosleDijete" cols="80" rows="10"></textarea>
+    
+    <br>
+    <br>
+   
+    <input type="file" name="slikaposledijete">
+    
+    <p style="font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-weight: bold;">Insert a picture after the diet</p>
+
+    <br>
+    <br>
+
+    <!--Button for send a data in server-->
+    <button>
+    <a style="font-family: Arial, Helvetica, sans-serif; font-size: 18px; font-weight: bold; color: black;text-decoration: none;" href="./submitForm.html" >Send</a>
+    </button>
+
+
+
+</form>
+
+
+
+</body>
+</html>
