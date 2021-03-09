@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Labels and grouping</title>
+</head>
+
+<!--
+    Labels/Grouping
+        - Creates a form used for catering reservations
+        - The form contains multiple elements split into groups
+        - Each element should have a label assigned to it
+
+    First group
+        - Name of the group should be "Personal data"
+        - The first field is for the name
+        - The second one is for the email address
+        - The third is for the phone number
+
+    Second group
+        - Name of the group should be "Location"
+        - It should contain fields for:
+            + City
+            + Street
+            + Street number
+
+
+    Third group
+        - Name of the group should be "Event info"
+        - The first element is dropdown containing the following options:
+            + birthday
+            + wedding (should be selected by default)
+            + company 
+        - The second element is for getting number of expected guests and it’s an input type element
+        - Placeholder is a number you choose 
+
+-->
+<body>
+
+    <form action="www.google.com" method="POST">
+
+        <h1 style="font-family: Arial;">Catering reservations</h1>
+
+        <!-- First group -->
+        <fieldset style="border-style: solid; border-color: black; border-width: 1px; border-radius: 10px; width: 600px;">
+            <legend style="font-family: Arial; font-weight: bold; font-size: 16px;">Personal data</legend>
+        
+            <br>
+
+            <label style="font-family: Arial; font-weight: bold; font-size: 14px;" for="name">Name: </label><input style="font-family: Arial;" name="name" id="name" type="text" required>
+            
+            <br>
+            <br>
+
+            <label style="font-family: Arial; font-weight: bold; font-size: 14px;" for="email">e mail: </label><input style="font-family: Arial;" name="email" id="email" type="email" required>
+        
+            <br>
+            <br>
+            
+            <label style="font-family: Arial; font-weight: bold; font-size: 14px;" for="phone">Phone number: </label><input style="font-family: Arial;" name="phoneNumber" id="phone" type="text" required>
+           
+        </fieldset>
+
+        <br>
+        <br>
+
+        <!-- Second group -->
+        <fieldset style="border-style: solid; border-color: black; border-width: 1px; border-radius: 10px; width: 600px;">
+            <legend style="font-family: Arial; font-weight: bold; font-size: 16px;">Location</legend>
+        
+            <br>
+
+            <label style="font-family: Arial; font-weight: bold; font-size: 14px;" for="City">City: </label><input style="font-family: Arial;" name="city" id="City" type="text" required>
+            
+            <br>
+            <br>
+
+            <label style="font-family: Arial; font-weight: bold; font-size: 14px;" for="Street">Street: </label><input style="font-family: Arial;" name="street" id="Street" type="text" required>
+        
+            <br>
+            <br>
+            
+            <label style="font-family: Arial; font-weight: bold; font-size: 14px;" for="Street_number">Street number: </label><input style="font-family: Arial;" name="street_Number" id="Street_number" type="text" required>
+        
+        </fieldset>
+         
+        <br>
+        <br>
+
+        <!-- Third group -->
+        <fieldset style="border-style: solid; border-color: black; border-width: 1px; border-radius: 10px; width: 600px;">
+            <legend style="font-family: Arial; font-weight: bold; font-size: 16px;">Event info</legend>
+
+            <br>
+
+            <label style="font-family: Arial; font-weight: bold; font-size: 14px;" for="reaseon">Reason for catering: </label>
+
+            <select name="reasons" id="reason">
+
+                <option value="birthday">Birthday</option>
+                <option value="wedding" selected>Wedding</option>
+                <option value="company">Company</option>
+            
+            </select>
+
+            <br>
+            <br>
+
+            <label style="font-family: Arial; font-weight: bold; font-size: 14px;" for="guestsNumber">Guests number: </label><input style="font-family: Arial;" name="guests_Number" id="guestsNumber" type="number" min="1" required placeholder="Number you choose">
+
+        </fieldset>
+
+        <br>
+
+        <!-- Buttons for clear data and send request -->
+        <button style="background-color: white; border-style: solid; border-color: black; border-width: 1px; cursor: pointer; padding: 7px; border-radius: 5px;">
+
+            <input style="font-family: Arial; font-size: 18px; font-weight: bold; border: white; background-color: white; cursor: pointer;" type="reset" name="clear" value="Clear data">
+
+        </button>
+
+        <button style="background-color: white; border-style: solid; border-color: black; border-width: 1px; cursor: pointer; padding: 7px; border-radius: 5px;">
+
+            <input style="font-family: Arial; font-size: 18px; font-weight: bold; border: white; background-color: white; cursor: pointer;" type="submit" name="subbmit" value="Send request">
+
+        </button>
+
+
+    </form>
+    
+
+</body>
+</html>
