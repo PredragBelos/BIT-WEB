@@ -1,0 +1,46 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Facebook post</title>
+</head>
+<body>
+
+    
+    <!--
+        HTML5 elements (required, date, email, url, search)   
+            - Create a form for Facebook posts scheduling
+            - The page should have one form that consists of elements, labels and a submit button
+            - It should have one required text field (Name)
+            - A field for date on which the post should be created
+            - A URL field for a website that will be used for the post
+            - A field that contains an email address to which an email is sent after publishing the post
+    -->
+    
+    <h1 style="font-family: Arial, Helvetica, sans-serif;">Post on the Facebook...</h1>
+    <br>
+
+    <form action="handle-upload.html" method="GET">
+
+        <fieldset>
+            <legend style="font-family: Arial, Helvetica, sans-serif;font-weight: bold;font-size: 18px;">Posts details</legend>
+            <br>
+
+            <label for="name" style="font-family: Arial">Your name: <input id="name" name="name" type="text" required autofocus></label><br><br>
+            <label for="date" style="font-family: Arial;">Date: <input id="date" style="font-family: Arial;" name="date" type="date"></label><br><br>
+            <label for="url" style="font-family: Arial">Web page (URL): <input id="url" name="url" type="url"></label><br><br>
+            <label for="email" style="font-family: Arial">e-mail: <input id="email" name="email" type="email"></label>
+
+            <br>
+            <br>
+            <input style="font-size: 18px; font-weight: bold; color: black;text-decoration: none;" type="submit" name="sent" value="Post">
+
+        </fieldset>
+
+
+
+    </form>
+
+
+</body>
+</html>
