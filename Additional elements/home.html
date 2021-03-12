@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Home Page</title>
+</head>
+<!--
+
+    Home Page content
+        Create a page with two columns
+        Width of the left column is 300px
+        Right column stretches to cover the rest of the screen
+
+        Left column content
+            Logo image with height set to 250px
+            Under the logo, there should be a list of links
+            One of the links should be "Contact"
+            The link should link to "./contact.html" page
+
+
+        Right column content
+            There should be two posts in form of groups
+            The first group content:
+                Title
+                Embedded YouTube video
+            The second group content:
+                Title
+                Video (HTML5) that you will find on the web
+
+        Contact Page content
+            Embedded Google Map on the page
+            Link for getting back to the “Home” page
+
+-->
+<body>
+
+    <!--Table is a layout for Home page-->
+
+    <table style="width: 100%;">
+       
+        <!--The first row contain Logo and heading of page-->
+        <tr>
+         
+            <td style="width: 300px; height: 250px">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHLsJzGWLTx7bcUT-9LyyJU0SL4BMGgbHOgw&usqp=CAU" alt="Logo" height="250">
+            </td>
+            
+            <td>
+                <h1 style="font-family: Arial; text-align: center">Home page</h1>
+            </td>
+
+        </tr>
+
+        <!--The second row contain navigation bar and Blog-->
+        <tr>
+            <td style="vertical-align: top; padding-top: 20px; border-top: 1px solid black; border-bottom: 1px solid black;">
+                <p style="text-align: left; margin-top: 5px;margin-bottom: 2px; padding-left: 80px"><a style="text-decoration: none; color: black; font-weight: bold; font-family: Arial;" href="https://www.mercedes-benz.com/en/">About us</a></p>
+                <p style="text-align: left; margin-top: 5px;margin-bottom: 2px; padding-left: 80px"><a style="text-decoration: none; color: black; font-weight: bold ; font-family: Arial" href="https://www.mercedes-benz.com/en/vehicles/passenger-cars/gla/">Cars</a></p>
+                <p style="text-align: left; margin-top: 5px;margin-bottom: 2px; padding-left: 80px"><a style="text-decoration: none; color: black; font-weight: bold ; font-family: Arial" href="./contact.html">Contact</a></p>
+            </td>
+
+            <td style=" border-top: 1px solid black; border-bottom: 1px solid black;">
+                <!--Hedding od right side of page-->
+                <h2 style="font-family: Arial">Blogs</h2>
+                <br>
+                
+                <!--First blog hadding and vieo-->
+                <p style="font-family: Arial; font-weight: bold;">Company presentation</p>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/ftOOAi7TP2g" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+               
+                <!--Second blog hadding and vieo-->
+                <p style="font-family: Arial; font-weight: bold;">GLA class presentation</p>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/ICnBMpeg_mU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                
+                <br>
+                <br>
+                <br>
+                <br>
+            </td>
+
+        </tr>
+
+        
+
+    
+        
+    
+    </table>
+  
+
+
+
+</body>
+
+</html>
