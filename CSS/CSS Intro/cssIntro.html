@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CssIntro</title>
+    <!--Link with extern CSS file -->
+    <!-- <link rel="stylesheet" href="./styles.css"> -->
+
+    <!--Internal CSS element for -->
+    <style type="text/css">
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background: #e3f2fd;
+}
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+}
+
+h1 {
+    padding: 20px 0;
+    text-align: center;
+    background: #2962ff;
+    color: white;
+}
+
+h2 {
+    margin-bottom: 0px;
+    padding-left: 10px;
+    text-align: left;
+    background: #2979ff;
+    color: white;
+}
+
+img {
+    height: 400px;
+    margin: 40px auto 40px;
+    display: block;
+}
+
+table {
+    width: 100%;
+    color: #333;
+    background: white;
+    border-collapse: collapse;
+}
+
+tr {
+    border-bottom: 1px solid #eee;
+}
+
+td {
+    padding: 5px 0;
+}
+
+td:first-child {
+    width: 300px;
+    padding-left: 10px;
+}
+
+p#footer {
+    margin-top: 100px;
+}
+
+/* Style from Selectors, Child and Descendant Selectors part exercise*/
+
+tr th {
+  background-color:lightblue ;
+}
+
+body p {
+  background-color: lightblue;
+}
+
+.blubackground {
+  background: #e3f2fd;
+}
+
+   
+    
+</style>
+
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>Home design</h1>
+
+        <h2>Elegant home - California</h2>
+
+        <img src="https://mmh-pre-defined.s3.ap-south-1.amazonaws.com/1518845939_955.JPG" alt="Home picture">
+
+        <table >
+            <tr>
+              <th>Flors</th>
+              <th>Area</th>
+              <th>Rooms position</th>
+            </tr>
+            <tr>
+              <td>Base</td>
+              <td>85 square meters</td>
+              <td class="blubackground">
+                <img src="https://www.gbconstructions.com.au/images/home-design/houses/ascot/floor-plan.jpg" alt="Hous image">
+              </td>
+            </tr>
+            <tr>
+              <td>First</td>
+              <td>80 square meters</td>
+              <td class="blubackground">
+                <img src="https://www.gbconstructions.com.au/images/home-design/houses/ascot/floor-plan.jpg" alt="Hous image">
+              </td>
+            </tr>
+    </table>
+
+    <p id="footer">
+
+      California design studio CDS <br>
+      Palmetto Ave 250 <br>
+      San Francisco <br>
+      californiadesign@gmail.com
+
+    </p>
+
+    </div>
+
+
+</body>
+</html>
