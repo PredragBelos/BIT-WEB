@@ -1,0 +1,68 @@
+
+.first{
+    color: 	DarkTurquoise;
+    background-color: firebrick;
+    opacity: 0.5;
+}
+
+.second{
+    color: 	rgb(0, 206, 209);
+    background-color:	rgba(178, 34, 34, 0.5);
+}
+
+.third{
+    color: 	hsl(181, 100%, 41%);
+    background-color: 	hsl(0, 68%, 42%);
+}
+
+img{
+    width: 500px;
+}
+
+.div1{
+    opacity: 0.5;
+}
+
+.div2{
+    background-color:	rgba(178, 34, 34, 0.5);
+    
+}
+
+.column1{
+    background-color: AliceBlue;
+    width: 200px;
+
+}
+
+.column2{
+    background-color:HotPink;
+    width: 200px;
+    
+}
+
+.column3{
+    background-color:gold;
+    width: 200px;
+    
+}
+
+.column4{
+    background-color:darkslateblue;
+    width: 200px;
+    
+}
+
+.column5{
+    background-color:lightgreen;
+    width: 200px;
+    
+}
+
+
+
+
+
+
+
+
+

@@ -41,6 +41,7 @@ h2 {
     text-align: left;
     background: #D32F2F;
     color: white;
+     /* Adding style who change previous style*/
     margin-left: 20px;
 }
 
