@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Text Exercise 1</title>
+    <link rel="stylesheet" href="./text_exercise1.css">
+    <link href="https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap" rel="stylesheet">
+</head>
+
+<!--
+    Browser-Safe Font Family
+        Create a page with multiple paragraphs
+        Apply different fonts to each of them
+        Add a quote to each paragraph and define a different font for each quote
+
+    Font size/weight/style
+        Use HTML/CSS from the previous example
+        Apply global font size/weight
+        Override the global font for the first paragraph (apply some other font)
+        Apply “oblique” style to the text in the second paragraph
+        Create a span element somewhere inside the third paragraph
+        Increase weight of the text inside the span and make it italic
+
+    @font-face
+        Take some time googling and find websites that provide fonts
+
+            Downloading and including a font:
+            Go to Google Fonts and download some font
+            Include that font on page
+            Apply the font to first paragraph
+
+        Font via url from remote server:
+            Go to Google Fonts and get the link for the font
+            Include that font on the page using a link
+            Apply the font to the page title
+
+
+    Uppercase & Lowercase/Underline & Strikethrough
+        Create a page with two paragraphs
+        Use CSS to transform all the letters in the first paragraph to uppercase and underline them
+        Transform the text in the second paragraph to lowercase and apply strike to it
+
+
+    Line/Word/Letter Spacing (Challenge for students)
+        Create a page with three paragraphs
+        Spacing between characters in the first paragraph should be 5px
+        Line height of the second paragraph is 200% of the original line height
+        The third paragraph should not be styled
+
+
+    Alignment
+        Align text in the previous examples:
+            First paragraph to the left
+            Second to the right
+            Third should be centered
+
+    Shadow/Pseudo-Classes
+        Create a page with a list of links to some websites
+
+        Shadow
+            Set the default color for that list
+            Add text shadow to text of all the list elements
+
+        Pseudo-Classes
+            Each link that is not clicked yet should be red
+            Each visited link should be black
+            Hovering over text should make it green
+            Clicking and holding the link should make it blue
+
+
+-->
+
+<body>
+
+    <div class="windowArea">
+
+        <div class="Page">
+
+            <h1>Exercise of text element and CSS </h1>
+
+            <br>
+
+            <p class="firstParagraph">Lorem ipsum dolor sit amet, consectetur <q>adipiscing</q> elit. Maecenas ac ante accumsan arcu tempor egestas. Nam odio lectus, laoreet eget nibh quis, viverra volutpat neque. Donec id est quis lectus elementum volutpat nec ac purus. Mauris ornare blandit aliquet. Ut euismod finibus eros, eu suscipit ante. Suspendisse hendrerit lectus velit, et consectetur ex vulputate in. Maecenas blandit mollis quam.</p>
+            
+            <br>
+
+            <p class="secondParagraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. <span>Maecenas ac ante accumsan arcu tempor egestas</span>. Nam odio lectus, laoreet eget nibh quis, viverra volutpat neque. Donec id est quis lectus elementum volutpat nec ac purus. Mauris ornare blandit aliquet. Ut euismod finibus eros, eu suscipit ante. Suspendisse hendrerit lectus velit, et consectetur ex vulputate in. Maecenas blandit mollis quam.</p>
+            
+            <br>
+
+            <p class="thirdParagraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. <span>Maecenas ac ante accumsan arcu tempor egestas</span>. Nam odio lectus, laoreet eget nibh quis, viverra volutpat neque. Donec id est quis lectus elementum volutpat nec ac purus. Mauris ornare blandit aliquet. Ut euismod finibus eros, eu suscipit ante. Suspendisse hendrerit lectus velit, et consectetur ex vulputate in. Maecenas blandit mollis quam.</p>
+
+            <br>
+
+            <p class="fourthParagraph">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+
+            <div>Page 1</div>
+
+        </div>
+
+        <div class="Page">
+
+            <h1>Exercise for second page</h1>
+
+            <br>
+
+            <p class="uppercase">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
+
+            <br>
+
+            <p class="lowercase">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
+
+            <div>Page 2</div>
+
+        </div>
+
+        <div class="Page">
+
+            <h1>Exercise for third page</h1>
+
+            <br>
+
+            <p class="style1">The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</p>
+
+            <br>
+
+            <p class="style2">The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</p>
+
+            <br>
+
+            <p class="style3">The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</p>
+
+            <div>Page 3</div>
+
+        </div>
+
+        <div class="Page">
+
+            <h1>Exercise for fivest page</h1>
+
+            <br>
+
+            <p class="fourthParagraph">Links for other pages:</p>
+            
+            <a href="https://www.google.com">GOOGLE</a><br><br>
+            <a href="https://www.youtube.com">YouTube</a><br><br>
+            <a href="https://www.linkedin.com">Linkedin</a><br><br>
+            
+
+            <div>Page 4</div>
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+
+        
+
+
+
+
+
+
+    
+</body>
+</html>
