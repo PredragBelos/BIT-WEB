@@ -1,0 +1,74 @@
+div{
+    width: 1000px;
+    margin: 0 auto;
+    
+}
+
+.list1{
+
+}
+
+.list2{
+    list-style-type: square;  
+}
+
+.list3{
+    list-style-type: upper-alpha;
+}
+
+.list4{
+    list-style-type: lower-roman;
+}
+
+.list5{
+    list-style-image:url(./Bullets.png);
+    width: 200px;
+    text-align: justify;
+}
+
+.list6{
+    list-style-image:url(./Bullets.png);
+    width: 200px;
+    list-style-position: inside;
+    text-align: justify;
+}
+
+.textcenter{
+    width:1000px;
+    text-align: center;
+}
+
+table{
+    margin: 15px;
+    border-collapse: collapse;
+    
+}
+
+table img{
+    height: 100px;
+}
+
+table th{
+    background-color: #cc0000;
+    color: white;
+    padding: 10px 14px;
+    font-size: 18px;
+}
+
+table tr{
+    padding:10px 14px ;
+}
+
+tr:nth-child(odd){
+    background: #f2f2f2;
+}
+
+tr:hover{
+    background-color: #ffc266;
+    
+}
+
+.tablediv{
+    border: 1px solid black;
+    width: fit-content;
+}
