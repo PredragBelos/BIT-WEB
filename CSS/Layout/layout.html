@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Layout</title>
+    <link rel="stylesheet" href="layout.css">
+</head>
+<!-- 
+    Position
+        Create a page containing a paragraph followed by three images
+        Add more paragraphs after the images in order to make the page scrollable
+
+    Relative
+        The first image should be positioned relatively
+        Move the image 50px from the top and 100px from the left
+        If image is over the text of the paragraph, add margin to the bottom of the image
+
+    Absolute
+        The second image should be positioned absolutely and it should appear 10px from the right and 15px from the top of the edge of the browser window
+        Position the third image at the bottom of the page
+
+    Fixed
+        Add a link at the bottom of the page
+        The link should bring you back to the top of the page
+        Position the link in the bottom right corner of the window
+        The link’s position should be fixed so that is always visible 
+-->
+
+<body>
+
+    <!-- This div represent a page -->
+    <div class="page1">
+
+        <h1>Position</h1>
+
+        <p class="par1">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+
+        <img class="img1" src="./Photos/Photo1.jpg" alt="Photo1">
+        <img class="img2" src="./Photos/Photo2.png" alt="Photo2">
+        <img class="img3" src="./Photos/Photo3.jpg" alt="Photo3">
+
+        <p class="par1">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
+
+        <p class="par1">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.</p>
+
+        <p class="par1">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
+
+        <p class="par1">Vestibulum euismod at metus eu ultrices. Suspendisse et ipsum sit amet ligula placerat ultrices. Quisque id dui est. Donec id metus diam. Fusce augue dolor, elementum vel diam eu, venenatis tempor purus. Ut varius aliquam lorem, in mollis felis molestie id. Vestibulum justo ligula, suscipit ornare dui in, mollis interdum dui. Aliquam lacus nibh, varius eget enim in, rhoncus mollis nisl. Mauris scelerisque, libero a tristique viverra, diam nunc tincidunt lacus, quis molestie libero sem et tortor. Vivamus sit amet lacus velit. Vestibulum et tristique metus. Phasellus fringilla felis felis, vehicula ultrices magna varius vel. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur vulputate, ipsum luctus bibendum lobortis, nisi dolor viverra nulla, ut convallis neque felis id enim. Integer eros massa, elementum nec pharetra cursus, mollis vel neque.</p>
+
+        <p class="par1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et nisl mattis, ultrices nibh eget, consectetur elit. Duis pellentesque nec nibh sed auctor. Morbi orci erat, ultricies sed magna eu, maximus luctus leo. Sed dignissim neque quis dolor pellentesque eleifend. Aenean ac eros dui. In a lorem sed nibh facilisis lobortis nec eget dolor. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec id orci at orci tempus blandit. Nam sem sem, tincidunt a elit non, egestas tincidunt diam.
+
+            Mauris quam arcu, tempus ut orci ut, tristique interdum lectus. Pellentesque vulputate sed justo vitae vehicula. Mauris euismod blandit posuere. Quisque ultrices dui neque, vitae gravida velit commodo ac. In interdum libero non elit tincidunt, quis porta nibh sagittis. Integer sed massa felis. Maecenas non odio lacinia, ultrices ex ut, hendrerit lacus. Phasellus nec orci iaculis, pretium diam a, sodales urna. Nam interdum risus ipsum, in pretium neque pharetra ut. Nullam tempor nisi a interdum molestie. Morbi nec sem semper, sollicitudin tellus non, vulputate lectus.</p>
+
+        <p class="par1">Donec ut libero mauris. Donec vestibulum tincidunt turpis id tristique. Nullam mattis tempus elit ac varius. Etiam at tellus a ipsum rhoncus iaculis at id massa. Aliquam in sapien eros. Sed ultricies, dolor sit amet rhoncus tristique, nunc nunc scelerisque turpis, sed consequat massa est id urna. Aenean leo augue, tempus id fermentum et, lacinia at arcu. Duis fringilla arcu sit amet urna varius, quis tincidunt sapien bibendum. Nulla vestibulum et risus sit amet pulvinar.</p>
+
+
+        <a href="#top">Go to the top</a>
+
+        <p class="pageNum">Page1</p>
+
+
+    </div>
+
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <div class="page2">
+
+        <div class="background">
+
+            <div class="meny">
+
+                <p class="home">Home</p>
+                <p>Meny1</p>
+                <p>Meny2</p>
+                <p>Meny3</p>
+                
+            </div>
+
+            <div>
+                <div class="down1">
+                    
+                    <div class="sub">
+                        <p>Sub Meny 1</p>
+                    </div>
+                    
+                    <div class="sub">
+                        <p>Sub Meny 2</p>
+                    </div>
+                    
+                    <div class="sub">
+                        <p>Sub Meny 3</p>
+                    </div>
+
+                </div>
+            </div>
+          
+
+        </div>
+
+        <br>
+        <br>
+        <br>
+        <br>
+
+        <p class="pageNum">Page2</p>
+
+    </div>
+
+    <br>
+    <br>
+    <br>
+    <br>
+    
+    <div class="page3">
+
+        <div class = "div1"></div>
+        <div class = "div2"></div>
+        <div class = "div3"></div>
+
+        <br><br><br>
+
+        <div class = "div4"></div>
+        <div class = "div5"></div>
+        <div class = "div6"></div>
+
+        <br><br><br>
+
+        <div class = "div7"></div>
+        <div class = "div8"></div>
+        <div class = "div9"></div>
+
+        <p class="pageNum">Page3</p>
+
+    </div>
+
+
+
+</body>
+</html>
