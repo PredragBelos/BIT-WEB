@@ -1,0 +1,100 @@
+body{
+    background-color: #eee;
+    margin: 0px auto;
+    padding: 0px;
+    width: 1400px;
+    font-family: sans-serif;
+    color: #444;
+}
+
+h1{
+    font-size: 28pt;
+    color: #66c;
+    text-align: center;
+    border-bottom: 2px solid #66c;
+}
+
+section{
+    width: 70%;
+    margin: 0px auto;
+    background-color: #edc;
+    position: relative;
+}
+
+div{
+    width: 250px;
+    padding: 20px;
+    border: 5px solid #666;
+    background-color: #ddd;
+    font-size: 9pt;
+    text-align: justify;
+}
+
+.pomeren{
+    background-color: rgba(255,250,210,0.8);
+    position: relative;
+    top: 30px;
+    left: 70px;
+}
+
+.spec{
+    background-color: rgba(230,200,255,0.8);
+    position: absolute;
+    top: -10px;
+    left: -100px;
+}
+
+table{
+    margin: 0px auto;
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+td{
+    border: 1px solid black;
+    padding: 5px 10px;
+}
+
+td p{
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+    font-weight: bold;
+}
+
+.cel{
+    background-color: #ffc;
+    color: red;
+}
+
+.cel:hover{
+    background-color: #fcc;
+}
+
+#stil{
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background-color: white;
+    font-size: 7pt;
+    width: 120px;
+    height: 120px;
+}
+
+ol{
+    padding: 2em;
+    border: 2px dotted gray;
+}
+
+li{
+    background-color: #def;
+    padding: 0.5em;
+    border: 1px solid #25c;
+}
+
+.pod{
+    background-color: #efc;
+    padding: 0px;
+    border: 1px solid green;
+}
+
