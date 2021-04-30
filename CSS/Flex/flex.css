@@ -1,0 +1,138 @@
+.parent1{
+    width: 600px;
+    height: 400px;
+    background-color: white;
+    border: 1px solid gray;
+    padding: 10px 5px;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.leftSide{
+    flex-grow: 2;
+    display: flex;
+}
+
+.rightSide{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.child1{
+    background-color: orange;
+    color: white;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.child2{
+    background-color: rgb(228, 103, 20); 
+    color: white;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.child3{
+    background-color: rgb(102, 75, 25); 
+    color: white;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.child4{
+    background-color: rgb(170, 89, 69); 
+    color: white;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.parent2{
+    width: 600px;
+    height: 400px;
+    background-color: white;
+    border: 1px solid gray;
+    padding: 10px 5px;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: space-around;
+
+}
+
+.child5{
+    background-color: orange;
+    color: white;
+    height: 180px;
+    width: 180px;
+    order: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.child6{
+    background-color: rgb(192, 132, 20);
+    color: white;
+    height: 180px;
+    width: 180px;
+    order: 4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.child7{
+    background-color: rgb(49, 209, 129);
+    color: white;
+    height: 180px;
+    width: 180px;
+    order: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.child8{
+    background-color: rgb(140, 77, 223);
+    color: white;
+    height: 180px;
+    width: 180px;
+    order: 5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.child9{
+    background-color: rgb(158, 59, 67);
+    color: white;
+    height: 180px;
+    width: 180px;
+    order: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.child10{
+    background-color: rgb(47, 94, 55);
+    color: white;
+    height: 180px;
+    width: 180px;
+    order: 6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
