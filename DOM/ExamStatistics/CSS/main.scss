@@ -1,0 +1,166 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+
+.page{
+    width: 900px;
+    margin: auto;
+}
+
+/*Statistic section*/
+.statisticSection{
+    width: 840px;
+    padding: 30px;
+    background-image: url(../img/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    .mainStatisticTitle{
+        text-align: center;
+        color: white;
+    }
+
+    .totalStudentsParagraph{
+        text-align: center;
+        color: white;
+    }
+
+    .passed{
+        width: 300px;
+        height: 40px;
+        margin: 15px auto;
+        background-color: cornflowerblue;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .failed{
+        width: 300px;
+        height: 40px;
+        margin: auto;
+        background-color: brown;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .passedParagraph{
+        flex-grow: 5;
+        margin: 0px 0px 0px 10px;
+    }
+
+    .passedNumberParagraph{
+        flex-grow: 1;
+        text-align: center;
+        margin: 0px;
+    }
+
+    .failedParagraph{
+        flex-grow: 5;
+        margin: 0px 0px 0px 10px;
+    }
+
+    .failedNumberParagraph{
+        flex-grow: 1;
+        text-align: center;
+        margin: 0px;
+    }
+}
+
+/*Inputs bar*/
+.inputBar{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(226, 226, 226);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    select{
+        width: 150px;
+        height: 26px;
+        margin-right: 10px;
+    }
+
+    .nameAndSurname{
+        width: 200px;
+        height: 20px;
+        margin-right: 10px;
+    }
+
+    .grade{
+        width: 100px;
+        height: 20px;
+    }
+
+    button{
+        width: 100px;
+        height: 30px;
+        font-size: 25px;
+        color: steelblue;
+        border: 0px;
+        background-color: transparent;
+    }
+
+    button:hover{
+        cursor: pointer;
+    }
+}
+
+/*Tables*/
+
+.tables{
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+
+    .passedTable{
+        flex-grow: 1;
+
+        th{
+            color: steelblue;
+            padding-bottom: 10px;
+            
+        }
+
+        .passTable td{
+           height: 25px; 
+        }
+
+        .passedTableRow{
+            border-top: 1px solid grey;
+            border-bottom: 1px solid grey;
+        }
+    }
+
+    .faliedTable{
+        flex-grow: 1; 
+
+        th{
+            color: brown;
+            padding-bottom: 10px;
+        }
+
+        .failTable td{
+            height: 25px; 
+        }
+
+        .failedTableRow{
+            border-top: 1px solid grey;
+            border-bottom: 1px solid grey;
+        }
+    }
+
+    table{
+        width: 300px;
+        margin: auto;
+        border-collapse: collapse;
+    }
+
+   
+}
+
+

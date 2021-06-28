@@ -1,0 +1,198 @@
+body {
+  padding: 0px;
+  margin: 0px;
+}
+
+.page {
+  width: 900px;
+  margin: auto;
+}
+
+/*Statistic section*/
+.statisticSection {
+  width: 840px;
+  padding: 30px;
+  background-image: url(../img/background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.statisticSection .mainStatisticTitle {
+  text-align: center;
+  color: white;
+}
+
+.statisticSection .totalStudentsParagraph {
+  text-align: center;
+  color: white;
+}
+
+.statisticSection .passed {
+  width: 300px;
+  height: 40px;
+  margin: 15px auto;
+  background-color: cornflowerblue;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.statisticSection .failed {
+  width: 300px;
+  height: 40px;
+  margin: auto;
+  background-color: brown;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.statisticSection .passedParagraph {
+  -webkit-box-flex: 5;
+      -ms-flex-positive: 5;
+          flex-grow: 5;
+  margin: 0px 0px 0px 10px;
+}
+
+.statisticSection .passedNumberParagraph {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  text-align: center;
+  margin: 0px;
+}
+
+.statisticSection .failedParagraph {
+  -webkit-box-flex: 5;
+      -ms-flex-positive: 5;
+          flex-grow: 5;
+  margin: 0px 0px 0px 10px;
+}
+
+.statisticSection .failedNumberParagraph {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  text-align: center;
+  margin: 0px;
+}
+
+/*Inputs bar*/
+.inputBar {
+  width: 100%;
+  height: 50px;
+  background-color: #e2e2e2;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.inputBar select {
+  width: 150px;
+  height: 26px;
+  margin-right: 10px;
+}
+
+.inputBar .nameAndSurname {
+  width: 200px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+.inputBar .grade {
+  width: 100px;
+  height: 20px;
+}
+
+.inputBar button {
+  width: 100px;
+  height: 30px;
+  font-size: 25px;
+  color: steelblue;
+  border: 0px;
+  background-color: transparent;
+}
+
+.inputBar button:hover {
+  cursor: pointer;
+}
+
+/*Tables*/
+.tables {
+  width: 100%;
+  margin-top: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.tables .passedTable {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+
+.tables .passedTable th {
+  color: steelblue;
+  padding-bottom: 10px;
+}
+
+.tables .passedTable .passTable td {
+  height: 25px;
+}
+
+.tables .passedTable .passedTableRow {
+  border-top: 1px solid grey;
+  border-bottom: 1px solid grey;
+}
+
+.tables .faliedTable {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+
+.tables .faliedTable th {
+  color: brown;
+  padding-bottom: 10px;
+}
+
+.tables .faliedTable .failTable td {
+  height: 25px;
+}
+
+.tables .faliedTable .failedTableRow {
+  border-top: 1px solid grey;
+  border-bottom: 1px solid grey;
+}
+
+.tables table {
+  width: 300px;
+  margin: auto;
+  border-collapse: collapse;
+}
+/*# sourceMappingURL=main.css.map */

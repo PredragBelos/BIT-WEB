@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/main.css">
+    <title>Exam statistics</title>
+</head>
+
+<body>
+    <section class="page">
+
+        <h1>Exam statistics</h1>
+
+        <!--Statistic section-->
+        <div class="statisticSection">
+
+            <h2 class="mainStatisticTitle">Exam statistics June</h2>
+
+            <h3 class="totalStudentsParagraph">Total students: <span></span></h3>
+
+            <div class="passed">
+                <p class="passedParagraph">PASSED</p>
+                <p class="passedNumberParagraph"></p>
+            </div>
+
+            <div class="failed">
+                <p class="failedParagraph">FAILED</p>
+                <p class="failedNumberParagraph"></p>
+            </div>
+
+        </div>
+
+        <!--Inputs bar-->
+        <div class="inputBar">
+
+            <select id="subjectDropDownList" name="subject">
+                <option value="JavaScript">JavaScript</option>
+                <option value="HTML">HTML</option>
+                <option value="CSS">CSS</option>
+                <option value="Bootstrap">Bootstrap</option>
+            </select>
+
+            <input class="nameAndSurname" id="studentNameAndSurname" type="text" name="nameOfStudent"
+                placeholder="Name surname">
+
+            <input class="grade" id="gradeInput" type="number" name="grade" placeholder="Grade">
+
+            <button id="addButton">ADD</button>
+
+        </div>
+
+        <!--Tables-->
+        <div class="tables">
+
+            <div class="passedTable">
+
+                <table class="passTable">
+
+                    <tr id="firstRow">
+                        <th>PASSED</th>
+                        <th></th>
+
+                    </tr>
+
+                </table>
+
+            </div>
+
+            <div class="faliedTable">
+
+                <table class="failTable">
+
+                    <tr>
+                        <th>FAILED</th>
+                        <th></th>
+                    </tr>
+
+                </table>
+
+            </div>
+
+        </div>
+
+
+
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="./JS/subject.js"></script>
+    <script src="./JS/student.js"></script>
+    <script src="./JS/exam.js"></script>
+    <script src="./JS/form.js"></script>
+    <script src="./JS/app.js"></script>
+
+
+
+
+
+</body>
+
+</html>
