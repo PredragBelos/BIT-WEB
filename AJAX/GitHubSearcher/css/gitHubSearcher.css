@@ -1,0 +1,116 @@
+/* Header*/
+header {
+  background-color: #f2f2f2;
+  padding: 15px;
+}
+
+header .headerBar {
+  height: 100%;
+}
+
+header .logoBar {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header .inputBar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 0px;
+}
+
+header .logo {
+  font-size: 28px;
+  font-weight: bold;
+  color: #808080;
+  margin: 0px;
+}
+
+header .userInput {
+  width: 220px;
+  height: 30px;
+  margin-right: 80px;
+  border: 1px solid #808080;
+  border-radius: 15px;
+  text-align: center;
+  font-size: 16px;
+  color: #808080;
+}
+
+/*Card section*/
+.cardSection {
+  padding: 0px;
+  margin-bottom: 40px;
+}
+
+.cardSection .cardMargin {
+  margin: 10px auto;
+  width: 100%;
+}
+
+.cardSection .card-body {
+  padding: 15px 15px 15px 0px;
+}
+
+.cardSection .card-title {
+  margin-bottom: 15px;
+}
+
+@media screen and (min-width: 0px) and (max-width: 768px) {
+  header .inputBar {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #f2f2f2;
+  }
+  header .userInput {
+    margin-right: 0px;
+  }
+}
+
+@media screen and (min-width: 0px) and (max-width: 375px) {
+  .cardSection .cardMargin {
+    width: 90%;
+  }
+}
+
+@media screen and (min-width: 375px) and (max-width: 576px) {
+  .cardSection .cardMargin {
+    width: 65%;
+  }
+}
+
+/*Table*/
+.tableInfo {
+  display: none;
+}
+
+.tableInfo table {
+  vertical-align: middle;
+}
+
+.tableInfo table th {
+  height: 60px;
+}
+
+#tableTitle {
+  display: none;
+}
+/*# sourceMappingURL=gitHubSearcher.css.map */
